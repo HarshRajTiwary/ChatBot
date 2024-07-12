@@ -15,6 +15,7 @@ and to activate
   * numpy
   * pickle
   * flask-cors
+
 To install these libraries run the following command:
 `pip install flask tensorflow nltk pickle flask-cors`
 Then copy the files in the directory of virtual environment which is created now and enjoy...
