@@ -1,0 +1,15 @@
+#chatbox {
+    width: 1200px;
+    height: 800px;
+    border: 1px solid #ff6600;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+#chatlog {
+    flex: 1;
+    overflow-y: auto;
+}
+#userInput {
+    width: calc(100% - 50px);
+}

@@ -1,0 +1,265 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+               "Hi",
+               "How are you?",
+               "Is anyone there?",
+               "Hello",
+               "Good day",
+               "What's up",
+               "how are ya",
+               "heyy",
+               "whatsup",
+               "??? ??? ??"
+            ],
+            "responses": [
+               "Hello!",
+               "Good to see you again!",
+               "Hi there, how can I help?"
+            ],
+            "context_set": ""
+         },
+          {
+            "tag": "goodbye",
+            "patterns": [
+               "cya",
+               "see you",
+               "bye bye",
+               "See you later",
+               "Goodbye",
+               "I am Leaving",
+               "Bye",
+               "Have a Good day",
+               "talk to you later",
+               "ttyl",
+               "i got to go",
+               "gtg"
+            ],
+            "responses": [
+               "Sad to see you go :(",
+               "Talk to you later",
+               "Goodbye!",
+               "Come back soon"
+            ],
+            "context_set": ""
+         },
+          {
+            "tag": "creator",
+            "patterns": [
+               "what is the name of your developers",
+               "what is the name of your creators",
+               "what is the name of the developers",
+               "what is the name of the creators",
+               "who created you",
+               "your developers",
+               "your creators",
+               "who are your developers",
+               "developers",
+               "you are made by",
+               "you are made by whom",
+               "who created you",
+               "who create you",
+               "creators",
+               "who made you",
+               "who designed you"
+            ],
+            "responses": [
+               "Harsh RaJ"
+            ],
+            "context_set": ""
+         },
+          {
+            "tag": "name",
+            "patterns": [
+               "name",
+               "your name",
+               "do you have a name",
+               "what are you called",
+               "what is your name",
+               "what should I call you",
+               "whats your name?",
+               "what are you",
+               "who are you",
+               "who is this",
+               "what am i chatting to",
+               "who am i taking to",
+               "what are you"
+            ],
+            "responses": [
+               "I am a Chatbot.",
+               "I am your helper",
+               "I am Buddy"
+            ],
+            "context_set": ""
+         },
+         {
+            "tag": "number",
+            "patterns": [
+               "more info",
+               "contact info",
+               "how to contact college",
+               "college telephone number",
+               "college number",
+               "What is your contact no",
+               "Contact number?",
+               "how to call you",
+               "College phone no?",
+               "how can i contact you",
+               "Can i get your phone number",
+               "how can i call you",
+               "phone number",
+               "phone no",
+               "call"
+            ],
+            "responses": [
+               "You can contact at: NUMBER"
+            ],
+            "context_set": ""
+         },
+        {
+            "tag": "construction_drawings",
+            "patterns": [
+                "What are construction drawings?",
+                "Tell me about construction drawings.",
+                "Explain construction drawings."
+            ],
+            "responses": [
+                "Construction drawings are critical documents used throughout the construction process to ensure that the project is built according to the design and specifications. They include detailed, scaled diagrams that provide a comprehensive guide for constructing buildings or infrastructure projects."
+            ]
+        },
+        {
+            "tag": "architectural_drawings",
+            "patterns": [
+                "What are architectural drawings?",
+                "Tell me about architectural drawings.",
+                "Explain architectural drawings."
+            ],
+            "responses": [
+                "Architectural drawings include floor plans, elevations, and sections. They provide a detailed layout and design of the building, including dimensions, materials, and finishes."
+            ]
+        },
+        {
+            "tag": "structural_drawings",
+            "patterns": [
+                "What are structural drawings?",
+                "Tell me about structural drawings.",
+                "Explain structural drawings."
+            ],
+            "responses": [
+                "Structural drawings show the framework and structural elements. They include details of foundations, beams, columns, slabs, and other load-bearing elements."
+            ]
+        },
+        {
+            "tag": "electrical_drawings",
+            "patterns": [
+                "What are electrical drawings?",
+                "Tell me about electrical drawings.",
+                "Explain electrical drawings."
+            ],
+            "responses": [
+                "Electrical drawings illustrate the layout of electrical wiring, lighting, and power outlets. They include load distribution, circuit diagrams, and specifications of electrical components."
+            ]
+        },
+        {
+            "tag": "plumbing_drawings",
+            "patterns": [
+                "What are plumbing and sanitary drawings?",
+                "Tell me about plumbing and sanitary drawings.",
+                "Explain plumbing and sanitary drawings."
+            ],
+            "responses": [
+                "Plumbing and sanitary drawings show the water supply, drainage, and waste disposal systems. They include the layout of pipes, fixtures, and fittings."
+            ]
+        },
+        {
+            "tag": "hvac_drawings",
+            "patterns": [
+                "What are HVAC drawings?",
+                "Tell me about HVAC drawings.",
+                "Explain HVAC drawings."
+            ],
+            "responses": [
+                "HVAC drawings illustrate the Heating, Ventilation, and Air Conditioning systems. They show the layout of ducts, vents, and HVAC equipment."
+            ]
+        },
+        {
+            "tag": "site_layout_drawings",
+            "patterns": [
+                "What are site layout drawings?",
+                "Tell me about site layout drawings.",
+                "Explain site layout drawings."
+            ],
+            "responses": [
+                "Site layout drawings depict the layout of the site, including landscaping. They show the positioning of the building, roads, and other structures."
+            ]
+        },
+        {
+            "tag": "roles_construction_drawings",
+            "patterns": [
+                "What are the roles in construction drawings?",
+                "Tell me about the roles in construction drawings.",
+                "Explain the roles in construction drawings."
+            ],
+            "responses": [
+                "Roles in civil engineering construction drawings include architects, civil engineers, draftsmen, surveyors, project managers, and quantity surveyors."
+            ]
+        },
+        {
+            "tag": "price_rate_india",
+            "patterns": [
+                "What are the price rates in India for construction drawings?",
+                "Tell me about the price rates in India for construction drawings.",
+                "Explain the price rates in India for construction drawings."
+            ],
+            "responses": [
+                "The cost of construction drawings in India can vary based on complexity, scope, and the region. General price rates are: Architectural Drawings: \u20b950 - \u20b9200 per square foot, Structural Drawings: \u20b930 - \u20b9150 per square foot, Electrical Drawings: \u20b910 - \u20b950 per square foot, Plumbing and Sanitary Drawings: \u20b910 - \u20b940 per square foot, HVAC Drawings: \u20b915 - \u20b960 per square foot, Complete Package: \u20b9100 - \u20b9400 per square foot."
+            ]
+        },
+        {
+            "tag": "revit_services",
+            "patterns": [
+                "Tell me about Revit services.",
+                "What are Revit services?",
+                "Explain Revit services."
+            ],
+            "responses": [
+                "Revit is a Building Information Modeling (BIM) software used in the architecture, engineering, and construction industries. It allows for collaboration, efficiency, and accuracy in designing buildings and structures."
+            ]
+        },
+        {
+            "tag": "revit_pricing",
+            "patterns": [
+                "What are the prices for Revit services in India?",
+                "Tell me about the prices for Revit services in India.",
+                "Explain the prices for Revit services in India."
+            ],
+            "responses": [
+                "Pricing for Revit services in India can vary. Basic Revit Modeling: \u20b9500 to \u20b91,500 per hour, Detailing and Documentation: \u20b9800 to \u20b92,000 per hour, Rendering and Visualization: \u20b91,000 to \u20b93,000 per hour, BIM Coordination and Clash Detection: \u20b91,200 to \u20b93,500 per hour."
+            ]
+        },
+        {
+            "tag": "cad_conversion",
+            "patterns": [
+                "Tell me about CAD conversion services.",
+                "What are CAD conversion services?",
+                "Explain CAD conversion services."
+            ],
+            "responses": [
+                "CAD conversion involves transforming traditional drawings, sketches, or designs into digital formats using specialized software. This process modernizes design workflows and enhances collaboration and preservation of legacy documentation."
+            ]
+        },
+        {
+            "tag": "cad_conversion_pricing",
+            "patterns": [
+                "What are the prices for CAD conversion services in India?",
+                "Tell me about the prices for CAD conversion services in India.",
+                "Explain the prices for CAD conversion services in India."
+            ],
+            "responses": [
+                "Pricing for CAD conversion services in India can vary. Basic 2D CAD Conversion: \u20b9300 to \u20b9800 per sheet or drawing, Detailed 2D CAD Conversion: \u20b9500 to \u20b91,500 per sheet or drawing, 3D CAD Conversion: \u20b9800 to \u20b92,000 per hour or per model."
+            ]
+        }
+    ]
+}
